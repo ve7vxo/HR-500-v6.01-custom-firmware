@@ -46,6 +46,7 @@ Colour definition can be changed in Set_Theme() routine. Used 16 bit colour pick
 -- Moved carrier detect routines into top of main loop alogside PTT detection and added chronometer for T/R delay to prevent relay wear during fast CW keying with or without PTT signal.
 
 -- Found out needless timer interrupts every millisecond were preventing the freqcount library from operating properly so removed timer interrupt completely.
+
 Version 6.00 Notes. -- VE7VXO
 
 -- Added array in memory and in EEPROM for ATU state per band. Amplifier now remembers if ATU is ON/BYP per band.
@@ -55,6 +56,7 @@ Version 6.00 Notes. -- VE7VXO
 -- Changed TX indicator to reflect PTT vs COR activation based on colour
 
 -- Mode text and colour changed.
+
 Version 6.01 Notes. -- VE7VXO
 
 -- Fault reset bug fixed.
